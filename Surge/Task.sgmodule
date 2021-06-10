@@ -1,5 +1,5 @@
-#!name=OREO Tasks SGModule
-#!desc=SURGE Tasks模块配置
+#!name=SURGE Task
+#!desc=OREO Sgmodule
 
 [Script]
 # 签到
