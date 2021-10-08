@@ -53,4 +53,4 @@ NetflixChecker = type=cron,cronexp=5 4 * * *,wake-system=1,timeout=3600,script-p
 
 #策略组面板 可重复配置 注意修改相应字段
 #必须更改的字段：group 填写需要显示的策略组名称
-groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=network&color=#86abee&group=Master
+groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=network&color=#86abee&group=🇭🇰 AUTO
