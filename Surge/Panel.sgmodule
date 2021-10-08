@@ -21,7 +21,7 @@ DisneySelect = script-name=DisneySelecter, update-interval=3600
 #NetflixSelect = script-name=NetflixSelect, update-interval=3600
 
 #策略组面板 可重复配置 注意修改相应字段
-#groupPanel= script-name=groupPanel,update-interval=5
+groupPanel= script-name=groupPanel,update-interval=5
 
 
 [Script]
@@ -53,4 +53,4 @@ Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 
 #策略组面板 可重复配置 注意修改相应字段
 #必须更改的字段：group 填写需要显示的策略组名称
-#groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=network&color=#86abee&group=🇭🇰 AUTO
+groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js ,argument=icon=network&color=#86abee&group=🇭🇰 AUTO
