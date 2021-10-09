@@ -12,7 +12,7 @@ net-info-panel=title="网络状态",content="请刷新",style=info,script-name=n
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
 #网络详情
-NET_info = script-name=NET_info,update-interval=1
+#NET_info = script-name=NET_info,update-interval=1
 
 #机场信息
 Sub_info = script-name=Sub_info,update-interval = 43200
@@ -48,7 +48,7 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 
 #網路詳情 标题显示为根节点名
 #应当修改的字段 group 代理策略组名称
-NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=🇭🇰 AUTO
+#NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=🇭🇰 AUTO
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
