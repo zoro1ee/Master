@@ -39,11 +39,11 @@ net-info-panel=script-path=https://raw.githubusercontent.com/love499520/mask_ang
 
 #網路詳情 标题显示为根节点名
 #应当修改的字段 group 代理策略组名称
-#NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=🇭🇰 AUTO
+#NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=🇭🇰 AUTO
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/sub_info_panel.js ,script-update-interval=0,argument=url=
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fnaixisubs.com%2FdownloadConfig%2FShadowRocketImportService.aspx%3Ft%3Dssaead%26urk%3Dc8abf58c-36dd-4430-8b26-e80628f03c0a
 
 #YouTube 解锁检测
 youtube_premium_check = type=generic, script-path=https://gist.githubusercontent.com/Hyseen/5ae36a6a5cb5690b1f2bff4aa19c766f/raw/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测
