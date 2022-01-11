@@ -43,7 +43,7 @@ net-info-panel=script-path=https://raw.githubusercontent.com/love499520/mask_ang
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fnaixisubs.com%2FdownloadConfig%2FNodeList.aspx%3Furk%3D285f523c-a821-4aaa-9b5a-62145bd18ba5
+Sub_info = type=generic,timeout=10,title="PeiQi",script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fnaixisubs.com%2FdownloadConfig%2FNodeList.aspx%3Furk%3D285f523c-a821-4aaa-9b5a-62145bd18ba5
 #YouTube 解锁检测
 youtube_premium_check = type=generic, script-path=https://gist.githubusercontent.com/Hyseen/5ae36a6a5cb5690b1f2bff4aa19c766f/raw/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测
 
