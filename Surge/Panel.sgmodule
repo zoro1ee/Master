@@ -18,7 +18,7 @@ net-info-panel=title="网络状态",content="请刷新",style=info,script-name=n
 Sub_info = script-name=Sub_info,update-interval = 43200
 
 #Youtube解锁检测
-youtube_premium_check = script-name=youtube_premium_check, title="YouTube Premium 解锁检测", update-interval=1
+youtube_premium_check = script-name=youtube_premium_check, title="YouTube 解锁检测", update-interval=1
 
 #Netflix解锁检测
  nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
