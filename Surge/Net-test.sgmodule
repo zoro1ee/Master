@@ -1,6 +1,5 @@
 #!name=Net-test
-#!desc=网络连通性测试 Baidu,Bilibili,Google,YouTube,Github
-
+#!desc=网络连通性测试
 [Script]
 Net-test = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/Net-test.js,argument=title=Net-test&server=false
 
