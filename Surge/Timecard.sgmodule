@@ -1,0 +1,8 @@
+#!name=NTimecard
+#!desc=节假日显示倒时时
+
+[Script]
+Net-test = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/Timecard.js,argument=title=Timecard
+
+[Panel]
+Timecard = script-name=Timecard,update-interval=1
