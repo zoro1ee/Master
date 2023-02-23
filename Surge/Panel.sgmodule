@@ -1,4 +1,4 @@
-#!name=Panels
+#!name=SurgePRO启动时间
 #!desc=信息面板
 
 [Panel]
@@ -6,13 +6,13 @@
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
 
 #Youtube解锁检测
-youtube_premium_check = script-name=youtube_premium_check, title="YouTube 解锁检测", update-interval=1
+#youtube_premium_check = script-name=youtube_premium_check, title="YouTube 解锁检测", update-interval=1
 
 #Netflix解锁检测
- nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
+#nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
 
 #Disney+解锁检测
- disney_check = script-name=disney_check,title=Disney+ 解锁检测,style=alert,content=请刷新面板,update-interval=1800
+ #disney_check = script-name=disney_check,title=Disney+ 解锁检测,style=alert,content=请刷新面板,update-interval=1800
  
 
 [Script]
@@ -20,10 +20,10 @@ youtube_premium_check = script-name=youtube_premium_check, title="YouTube 解锁
 SurgePro_ReloadProfile = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/surgepro_reloadprofile.js ,argument=icon=crown.fill&color=#f6c970
 
 #YouTube 解锁检测
-youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/youtube_premium_check.js, argument=title=YouTube 解锁检测
+#youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/youtube_premium_check.js, argument=title=YouTube 解锁检测
 
 #Netflix 解锁检测
-nf_check = type=generic, script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/nf_check.js, argument=title=Netflix 解锁检测
+#nf_check = type=generic, script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/nf_check.js, argument=title=Netflix 解锁检测
 
 #Disney+ 解锁检测
-disney_check = type=generic,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/disney_check.js, argument=title=Disney 解锁检测
+#disney_check = type=generic,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/disney_check.js, argument=title=Disney 解锁检测
