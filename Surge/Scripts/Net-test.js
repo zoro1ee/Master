@@ -12,7 +12,7 @@ await Promise.all([http($.baidu),http($.bilibili),http($. github),http($. google
     title: '网络迟延测试',
     content: x.join('\n'),
     icon: 'timer',
-    'icon-color': '#FF5A9AF9',
+  /*  'icon-color': '#FF5A9AF9', */
   })
 })
 })();
