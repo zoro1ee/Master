@@ -60,7 +60,7 @@ if(net=="en0") {
       `速度 ➟ ${outCurrentSpeed} | ${inCurrentSpeed}\n` +
 		`峰值 ➟ ${outMaxSpeed} | ${inMaxSpeed}`,
 		icon: params.icon,
-		  "icon-color":params.color
+		/*  "icon-color":params.color  */  
     });
 
 })()
