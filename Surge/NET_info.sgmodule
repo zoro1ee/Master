@@ -15,4 +15,4 @@ NET_info = script-name=NET_info,update-interval=1
 net-info-panel=script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/Net.js,type=generic
 
 #group代理策略组名称修改为正在使用的
-NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=🌈 Proxy
+NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/net_info.js,argument=icon=externaldrive.connected.to.line.below&group=🌈 Proxy
