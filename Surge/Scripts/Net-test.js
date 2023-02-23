@@ -1,5 +1,5 @@
 let $ = {
-bilibili:'https://www.bilibili.com',
+//bilibili:'https://www.bilibili.com',
 baidu:'https://www.baidu.com',
 youtube:'https://www.youtube.com/',
 google:'https://www.google.com/generate_204',
