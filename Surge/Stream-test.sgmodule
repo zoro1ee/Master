@@ -8,4 +8,4 @@ Stream-All-2 = script-name=Stream-All-2, title="流媒体解锁检测", content=
 
 [Script]
 # > 流媒体解锁检测
-Stream-All-2 = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/w164955/Config/main/JavaScript/Stream-All-2.js
+Stream-All-2 = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/Stream-test.js
