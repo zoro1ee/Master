@@ -24,7 +24,7 @@ $httpClient.get('http://ip-api.com/json/?lang=en', function (error, response, da
       `運營商 : ${jsonData.isp}\n` +
 		`數據中心: ${jsonData.org}`,
       icon: params.icon,
-		  "icon-color":params.color
+		 // "icon-color":params.color
     });
   });
 
