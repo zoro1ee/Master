@@ -1,0 +1,7 @@
+#!name=DNS FLush
+#!desc=DNS信息显示
+[Script]
+flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/oreoleeus/Master/main/Surge/Scripts/flushDNS.js,argument=title=DNS FLush&icon=arrow.clockwise&server=false
+
+[Panel]
+flushDNS = script-name=flushDNS,update-interval=600
