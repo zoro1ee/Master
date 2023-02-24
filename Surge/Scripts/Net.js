@@ -31,7 +31,7 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
     title: '网络错误',
     content: '无法连接到网络\n检查网络后重试',
     icon: 'wifi.exclamationmark',
-    'icon-color': '#CB1B45',
+ //   'icon-color': '#CB1B45',
   });
 } else {
   if ($network['cellular-data']) {
