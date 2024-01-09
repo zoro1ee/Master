@@ -1,11 +1,62 @@
 # NAME: MovieDirect
-# AUTHOR: blackmatrix7
+# AUTHOR: zoro1ee
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-01-09
 # HOST-SUFFIX: 25
 # TOTAL: 25
+#玩偶哥哥（直连）
 DOMAIN-SUFFIX,wogg.link
 DOMAIN-SUFFIX,wogg.xyz
+#小纸条（直连）
 DOMAIN-SUFFIX,gitcafe.net
-DOMAIN-SUFFIX,gitcafe.ink
-DOMAIN-SUFFIX,jiohub.top
+#厂长资源（直连）
+DOMAIN-SUFFIX,czzy88.com
+DOMAIN-SUFFIX,czzy22.com
+DOMAIN-SUFFIX,czzy66.com
+#在线之家（直连）
+DOMAIN-SUFFIX,zxzja.com
+DOMAIN-SUFFIX,zxzjhd.com
+DOMAIN-SUFFIX,zxzj.pro
+#低端影视（直连）
+DOMAIN-SUFFIX,ddys.pro
+DOMAIN-SUFFIX,ddys.mov
+#欧乐影院（代理）
+DOMAIN-SUFFIX,olevod.com
+#海外看（代理）
+DOMAIN-SUFFIX,haiwaikan.com
+#天翼资源（代理）
+DOMAIN-SUFFIX,911ysw.top
+#索尼资源（直连）
+DOMAIN-SUFFIX,suoniapi.com
+#非凡资源（直连）
+DOMAIN-SUFFIX,ffzyapi.com
+#红牛资源（直连）
+DOMAIN-SUFFIX,hongniuzy2.com
+#量子资源（直连）
+DOMAIN-SUFFIX,lziapi.com
+#快车资源（直连）
+DOMAIN-SUFFIX,kczyapi.com
+#三九影視（直连）
+DOMAIN-SUFFIX,39kan.com
+#闪电资源（直连）
+DOMAIN-SUFFIX,sdzyapi.com
+#樱花资源（直连）
+DOMAIN-SUFFIX,apiyhzy.com
+#卧龙资源（直连）
+DOMAIN-SUFFIX,wolongzyw.com
+#飘花影院（直连）
+DOMAIN-SUFFIX,ahjiuman.com
+#虎牙资源（直连）
+DOMAIN-SUFFIX,huyaapi.com
+#百度资源（直连）
+DOMAIN-SUFFIX,apibdzy.com
+#飘零影院（直连）
+DOMAIN-SUFFIX,p2100.net
+#无尽资源（直连）
+DOMAIN-SUFFIX,wujinapi.com
+#速博资源（直连）
+DOMAIN-SUFFIX,subocaiji.com
+#乐视资源（直连）
+DOMAIN-SUFFIX,leshizyapi.com
+#探索页（直连）
+DOMAIN-SUFFIX,infuseku.xyz
