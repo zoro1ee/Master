@@ -1,3 +1,9 @@
+# NAME: MovieProxy
+# AUTHOR: zoro1ee
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-01-09
+# HOST-SUFFIX: 25
+# TOTAL: 25
 DOMAIN-SUFFIX,v1.mk
 DOMAIN-SUFFIX,notion-api.splitbee.io
 DOMAIN-SUFFIX,themoviedb.org
@@ -18,3 +24,4 @@ DOMAIN-SUFFIX,ibb.co
 DOMAIN-SUFFIX,kin6c1.com
 DOMAIN-SUFFIX,iz8qkg.com
 DOMAIN-SUFFIX,v82u1l.com
+DOMAIN-SUFFIX,histar.tv
