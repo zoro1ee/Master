@@ -21,12 +21,6 @@ DOMAIN-SUFFIX,zxzj.pro
 #低端影视（直连）
 DOMAIN-SUFFIX,ddys.pro
 DOMAIN-SUFFIX,ddys.mov
-#欧乐影院（代理）
-DOMAIN-SUFFIX,olevod.com
-#海外看（代理）
-DOMAIN-SUFFIX,haiwaikan.com
-#天翼资源（代理）
-DOMAIN-SUFFIX,911ysw.top
 #索尼资源（直连）
 DOMAIN-SUFFIX,suoniapi.com
 #非凡资源（直连）
