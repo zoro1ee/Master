@@ -1,3 +1,4 @@
+综合频道,#genre#
 TVB 翡翠台,https://fake-stream.livednow.com/hkdvb/jade?token=321b0a36ca2aed06ebaa85d8012df385&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 TVB 明珠台,https://fake-stream.livednow.com/mdvb/pearl?token=8d47f6a8506eee37e6c726a1e8412b0f&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 TVB J2 台,https://fake-stream.livednow.com/mdvb/j2?token=16ca037a4f5d03eaebee24d129d7d3fb&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
@@ -14,6 +15,7 @@ Line Today NBA,https://fake-stream.livednow.com/line_today/videolandsports?token
 Line Today UBA,https://fake-stream.livednow.com/line_today/uba?token=f7926fda6722b7c44b61f909e5f44393&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 緯來體育,https://fake-stream.livednow.com/redirect/videolandsports?token=fe44a6f50b373603e7ade66f751d2a37&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 CCTV 风云足球,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_FENGSHANGZQ-CQ/G_FENGSHANGZQ-CQ.m3u8?user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
+新闻频道,#genre#
 民視,https://fake-stream.livednow.com/4gtv/4gtv-4gtv002?token=b8e3d5214e6cffbb4d17830c7768800c&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 民視第一台,https://fake-stream.livednow.com/4gtv/4gtv-4gtv003?token=3758307f36347497c96547757b1805e8&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 民視新聞台,https://fake-stream.livednow.com/4gtv/litv-ftv13?token=b55a3e83d722a63441b3a1838a67e8bc&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
@@ -60,6 +62,7 @@ CNBC Asia 財經台,https://fake-stream.livednow.com/4gtv/235?token=9f0a673d7715
 ABC News,https://fake-stream.livednow.com/youtube/OOtxXPaQvoM?token=f7e3b8620385314163200735e22bc958&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 TBS News,https://fake-stream.livednow.com/youtube/ohI356mwBp8?token=b1efcf139ba14a6d72bc04f1b5235bde&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 JapaNews24,https://fake-stream.livednow.com/youtube/coYw-eVU0Ks?token=f8a041919b57296236d3fcfb1c864481&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
+戏剧频道,#genre#
 靖天綜合台,https://fake-stream.livednow.com/4gtv/21?token=53e8ae9735c8eaddc3840946913d4859&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 靖天資訊台,https://fake-stream.livednow.com/4gtv/88?token=cc6d395a61717bdaa74be623c03e1293&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
 靖天日本台,https://fake-stream.livednow.com/4gtv/4gtv-4gtv047?token=d6169004ece38bbcc7f0ef06135fbd52&user_id=558824315&user_token=d9bedc8e124074b8dadcc1bdbd118d58
