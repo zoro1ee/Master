@@ -6,6 +6,7 @@
 # TOTAL: 25
 DOMAIN-SUFFIX,v1.mk
 DOMAIN-SUFFIX,notion-api.splitbee.io
+DOMAIN-SUFFIX,tmdbimage.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,tmdb.org
