@@ -1,13 +1,14 @@
 # NAME: MovieDirect
 # AUTHOR: zoro1ee
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-07
-# HOST-SUFFIX: 25
-# TOTAL: 25
+# UPDATED: 2026-08-07
+# HOST-SUFFIX: 26
+# TOTAL: 26
 #玩偶哥哥（直连）
 DOMAIN-SUFFIX,wogg.one
 DOMAIN-SUFFIX,wogg.xyz
 DOMAIN-SUFFIX,wogg.net
+DOMAIN-SUFFIX,wogg.xxooo.cf
 #小纸条（直连）
 DOMAIN-SUFFIX,gitcafe.ink
 DOMAIN-SUFFIX,gitcafe.net
