@@ -47,6 +47,9 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,ldcstore.com
 DOMAIN-SUFFIX,registry.k8s.io
 DOMAIN-SUFFIX,cloakbrowser.dev
+DOMAIN-SUFFIX,linux.do
