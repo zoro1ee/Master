@@ -1,0 +1,12 @@
+#!name=SideStore 本机回环
+#!desc=让 Surge 顶替 LocalDevVPN：把 10.7.0.1 反射回本机，供 SideStore / LiveContainer 续签使用。关闭本模块即完全移除该行为。
+#!system=ios
+
+[General]
+// SideStore 在寻找回环接口时会跳过带 IPv6 地址的 VPN 接口，必须关闭 IPv6 VIF
+ipv6-vif = disabled
+// 10.7.0.1 落在 10.0.0.0/8 内，默认进不了 Surge VIF，需要显式加进来（%INSERT% 表示继承主配置已有条目）
+tun-included-routes = %INSERT% 10.7.0.1/32
+
+[IP Rewrite]
+10.7.0.1 = reflect
