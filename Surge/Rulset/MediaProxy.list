@@ -1,0 +1,52 @@
+# NAME: MediaSplit / Proxy
+# DESC: 影视 —— 需代理段（原 MovieProxy）
+# REPO: https://github.com/zoro1ee/Master
+# 用法: RULE-SET,<本文件URL>,Smart
+# 说明: 海外影视站/TVDB/TVB/4gtv 等国内直连不通的，走代理组。
+
+DOMAIN-SUFFIX,v1.mk
+DOMAIN-SUFFIX,notion-api.splitbee.io
+DOMAIN-SUFFIX,tmdbimage.com
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,olevod.com
+DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-SUFFIX,haiwaikan.com
+DOMAIN-SUFFIX,bfvvs.com
+DOMAIN-SUFFIX,cdn.venus7202.com
+DOMAIN-SUFFIX,cdn.ceres9350.com
+DOMAIN-SUFFIX,cdn.efhie.com
+DOMAIN-SUFFIX,czzy.site
+DOMAIN-SUFFIX,cz01.vip
+DOMAIN-SUFFIX,picsum.photos
+DOMAIN-SUFFIX,ibb.co
+DOMAIN-SUFFIX,kin6c1.com
+DOMAIN-SUFFIX,iz8qkg.com
+DOMAIN-SUFFIX,v82u1l.com
+DOMAIN-SUFFIX,histar.tv
+DOMAIN-SUFFIX,911ysw.top
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,jiohub.top
+DOMAIN-SUFFIX,livednow.com
+DOMAIN-SUFFIX,livednow.org
+DOMAIN-SUFFIX,wx.sb
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,ofiii.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,4k-av.com
+DOMAIN-SUFFIX,v36.cm
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,ldcstore.com
+DOMAIN-SUFFIX,registry.k8s.io
+DOMAIN-SUFFIX,cloakbrowser.dev
+DOMAIN-SUFFIX,linux.do
