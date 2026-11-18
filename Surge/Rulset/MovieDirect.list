@@ -1,8 +1,9 @@
 # NAME: MovieDirect
-# DESC: 影视·网盘·PT·运营商视频 —— 直连段（已吸收原 XPTV 规则模块全部规则）
+# DESC: 影视·网盘·PT·运营商视频 —— 直连段（原 MovieDirect + XPTV 规则模块 + XPTV list 合并去重）
 # REPO: https://github.com/zoro1ee/Master
 # 用法: RULE-SET,<本文件URL>,DIRECT,extended-matching,no-resolve
-# 说明: XPTV 规则模块已并入本文件，模块可删除；规则集内不带策略，策略由引用行指定。
+# 说明: XPTV 规则模块与 XPTV 的 list 已全部并入本文件，两处均可停用/删除。
+#       规则集内不带策略；与 MovieProxy 冲突的域名以代理段为准（不进本文件）。
 
 DOMAIN-SUFFIX,wogg.one
 DOMAIN-SUFFIX,wogg.xyz
@@ -469,3 +470,71 @@ DOMAIN,img.jisuimage.com
 DOMAIN,pic.wujinpp.com
 DOMAIN,suboimage.com
 DOMAIN,img.ffzy888.com
+DOMAIN-KEYWORD,wogg
+DOMAIN-SUFFIX,wogg.link
+DOMAIN-KEYWORD,wobge.run
+DOMAIN-KEYWORD,pan666
+DOMAIN-SUFFIX,pan666.net
+DOMAIN-KEYWORD,yunpan
+DOMAIN-SUFFIX,yunpan1.cc
+DOMAIN-KEYWORD,czzy
+DOMAIN-KEYWORD,czys
+DOMAIN-SUFFIX,cz233.com
+DOMAIN-SUFFIX,czys.top
+DOMAIN-SUFFIX,czzy77.com
+DOMAIN-KEYWORD,zxzj
+DOMAIN-KEYWORD,ddys
+DOMAIN-KEYWORD,bdys
+DOMAIN-SUFFIX,bdys10.com
+DOMAIN,v3.sxzyhuij.com
+DOMAIN,v3.suonizy-youku.com
+DOMAIN,v8.sxzyhuij.com
+DOMAIN,snzypic.com
+DOMAIN,v8.suonizy-youku.com
+DOMAIN-SUFFIX,moduapi.cc
+DOMAIN-SUFFIX,zuidazy.me
+DOMAIN-SUFFIX,qhzyapi.com
+DOMAIN-SUFFIX,hhzyapi.com
+DOMAIN-SUFFIX,xkanzy10.com
+DOMAIN-SUFFIX,xinlangapi.com
+DOMAIN-SUFFIX,kuaiyunzy.com
+DOMAIN-SUFFIX,fenwe078.cf
+DOMAIN-SUFFIX,kuaikanzy.net
+DOMAIN-SUFFIX,cz01.site
+DOMAIN-SUFFIX,fotile.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN,wxsnsencsvp.wxs.qq.com
+DOMAIN-SUFFIX,toutiao50.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-KEYWORD,quark
+DOMAIN,drive-pc.quark.cn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-SUFFIX,aliyundrive.asia
+DOMAIN-SUFFIX,alicloudccp.com
+DOMAIN,openapi.aliyundrive.com
+DOMAIN,auth.aliyundrive.com
+DOMAIN,api.aliyundrive.com
+DOMAIN,ikunzyapi.com
+DOMAIN-KEYWORD,ikzybf
+DOMAIN-KEYWORD,49zyvideoplayurl
+DOMAIN-KEYWORD,vip.kuaikan
+DOMAIN-KEYWORD,vip.ffzy
+DOMAIN-KEYWORD,kuaiyun
+DOMAIN,vod2.kczybf.com
+DOMAIN,top.1080pzy.co
+DOMAIN,c3.monidai.com
+DOMAIN,pan.dy066.com
+DOMAIN,hey11.cjkypo.com
+DOMAIN,hnzy.bfvvs.com
+DOMAIN-SUFFIX,maimn.com
+DOMAIN,vip.ffzy-play5.com
+DOMAIN,vip.ffzy-online6.com
+DOMAIN,sss.image8899.net
+DOMAIN,ikcdn01.ikzybf.com
+DOMAIN,vip.ffzy-play9.com
+DOMAIN,svip.picffzy.com
+DOMAIN,vip.imgffzy.com
+DOMAIN,vip.ffzyread1.com
+DOMAIN,vip.ffzy-play3.com
+DOMAIN,vip.ffzyread.com
