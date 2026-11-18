@@ -1,0 +1,7 @@
+# NAME: RedFruitDirect
+# DESC: 红果短剧 视频CDN —— 直连（第三方客户端播放；字节系CDN走境外出口会超时/403）
+# REPO: https://github.com/zoro1ee/Master
+# 用法: RULE-SET,<本文件URL>,DIRECT,extended-matching,no-resolve
+DOMAIN-SUFFIX,dramaboxdb.com
+DOMAIN-SUFFIX,qznovelvod.com
+DOMAIN-SUFFIX,vod.snssdk.com
