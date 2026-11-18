@@ -1,14 +1,15 @@
 #!name=国内 App 去广告（红果 / 番茄 / 字节）
-#!desc=针对「看广告换免费内容」类国内 App 的精确域名拦截：红果免费短剧、番茄小说、字节穿山甲广告 SDK、小红书广告、友盟/腾讯埋点。规则源自实机 DNS 抓包 + 社区规则交叉验证，全部为精确域名，无宽泛关键字；正片 CDN、图床、业务接口走白名单不入规则，零误伤。DNS 层拦不到的已缓存广告、直播插播广告不在覆盖范围。
+#!desc=针对「看广告换免费内容」类国内 App 的精确域名拦截：红果免费短剧、番茄小说、字节穿山甲广告 SDK、小红书广告、友盟/腾讯埋点。规则源自实机 DNS 抓包 + 社区规则交叉验证，全部为精确域名，无宽泛关键字；正片 CDN、图床、业务接口走白名单不入规则，零误伤。
 #!author=zoro1ee
 #!homepage=https://github.com/zoro1ee/Master
 #!category=Ad Block
 
 # 上游：https://github.com/abclq/home-dns-adblock (MIT)
 # 说明：刻意不拦 doh.pub —— iPhone 自身 encrypted-dns-server 依赖它，拦了会掐断自己的加密 DNS。
-#       若设备不使用 doh.pub，可自行加一行 DOMAIN-SUFFIX,doh.pub,REJECT 防 App 用 DoH 绕过本模块。
-
+#
 [Rule]
+# ---- 字节广告通配（覆盖 ads1…ads9 及未来新前缀）----
+DOMAIN-WILDCARD,ads*.zijieapi.com,REJECT
 
 # ---- 番茄 / 红果短剧 (19 条) ----
 DOMAIN-SUFFIX,log3-applog-lf.fqnovel.com,REJECT
@@ -31,15 +32,9 @@ DOMAIN-SUFFIX,v6-reading-ad.qznovelvod.com,REJECT
 DOMAIN-SUFFIX,v9-reading-ad.qznovelvod.com,REJECT
 DOMAIN-SUFFIX,v96-reading-ad.qznovelvod.com,REJECT
 
-# ---- 字节 / 穿山甲广告 SDK (31 条) ----
+# ---- 字节 / 穿山甲广告 SDK (25 条) ----
 DOMAIN-SUFFIX,activity-ag.awemeughun.com,REJECT
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-lf.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
@@ -93,3 +88,4 @@ DOMAIN-SUFFIX,wmzfylgdsz.com,REJECT
 DOMAIN-SUFFIX,wuchuyun.com,REJECT
 DOMAIN-SUFFIX,xinqiucc.com,REJECT
 DOMAIN-SUFFIX,ydycdn.com,REJECT
+
