@@ -1,7 +1,10 @@
 # 国内 App 去广告规则集（红果 / 番茄 / 字节 / 小红书 / 埋点）
-# 用途：Surge RULE-SET 引用 —— RULE-SET,<本文件URL>,REJECT,extended-matching
+# 用途：Surge RULE-SET —— RULE-SET,<本文件URL>,REJECT,pre-matching,extended-matching,no-resolve
 # 上游：https://github.com/abclq/home-dns-adblock (MIT)
-# 与同仓库 Surge/AdBlock-CNApp.sgmodule 内容一致；刻意不含 doh.pub（Surge 自身 encrypted-dns-server 可能依赖它）
+# 与同仓库 Surge/AdBlock-CNApp.sgmodule 同源；刻意不含 doh.pub（Surge encrypted-dns-server 可能依赖）
+
+# ---- 字节广告通配（覆盖 ads1…ads9 及未来新前缀）----
+DOMAIN-WILDCARD,ads*.zijieapi.com,REJECT
 
 # ---- 番茄 / 红果短剧 (19 条) ----
 DOMAIN-SUFFIX,log3-applog-lf.fqnovel.com,REJECT
@@ -24,15 +27,9 @@ DOMAIN-SUFFIX,v6-reading-ad.qznovelvod.com,REJECT
 DOMAIN-SUFFIX,v9-reading-ad.qznovelvod.com,REJECT
 DOMAIN-SUFFIX,v96-reading-ad.qznovelvod.com,REJECT
 
-# ---- 字节 / 穿山甲广告 SDK (31 条) ----
+# ---- 字节 / 穿山甲广告 SDK (25 条) ----
 DOMAIN-SUFFIX,activity-ag.awemeughun.com,REJECT
 DOMAIN-SUFFIX,ad.toutiao.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-lf.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com,REJECT
-DOMAIN-SUFFIX,ads5-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com,REJECT
 DOMAIN-SUFFIX,dig.bdurl.net,REJECT
