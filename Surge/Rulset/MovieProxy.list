@@ -1,8 +1,7 @@
 # NAME: MovieProxy
-# DESC: 影视 —— 需代理段（国内直连不通的海外影视站）
+# DESC: 影视 —— 需代理段（海外影视站 / TVDB / TVB / 4gtv 等国内直连不通的）
 # REPO: https://github.com/zoro1ee/Master
 # 用法: RULE-SET,<本文件URL>,Smart
-# 说明: 海外影视站/TVDB/TVB/4gtv 等国内直连不通的，走代理组。
 
 DOMAIN-SUFFIX,v1.mk
 DOMAIN-SUFFIX,notion-api.splitbee.io
