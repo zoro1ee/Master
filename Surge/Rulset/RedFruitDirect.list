@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,qznovelvod.com
 DOMAIN-SUFFIX,vod.snssdk.com
 # 匿名设备注册（playback-device.js REGISTER_URL）
 DOMAIN-SUFFIX,log5-applog-lf.fqnovel.com
+# Android 客户端（hongguoTV）注册：is.snssdk.com 与 log5-applog-lf.fqnovel.com 等价，需直连否则被 TikTok 组带走
+DOMAIN-SUFFIX,is.snssdk.com
