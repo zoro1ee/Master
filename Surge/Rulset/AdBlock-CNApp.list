@@ -9,7 +9,6 @@ DOMAIN-WILDCARD,ads*.zijieapi.com,REJECT
 # ---- 番茄 / 红果短剧 (19 条) ----
 DOMAIN-SUFFIX,log3-applog-lf.fqnovel.com,REJECT
 DOMAIN-SUFFIX,log5-applog-hl.fqnovel.com,REJECT
-DOMAIN-SUFFIX,log5-applog-lf.fqnovel.com,REJECT
 DOMAIN-SUFFIX,mon11-misc-hl.fqnovel.com,REJECT
 DOMAIN-SUFFIX,mon11-misc-lf.fqnovel.com,REJECT
 DOMAIN-SUFFIX,mon3-misc-lf.fqnovel.com,REJECT
