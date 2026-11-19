@@ -5,3 +5,5 @@
 DOMAIN-SUFFIX,dramaboxdb.com
 DOMAIN-SUFFIX,qznovelvod.com
 DOMAIN-SUFFIX,vod.snssdk.com
+# 匿名设备注册（playback-device.js REGISTER_URL）
+DOMAIN-SUFFIX,log5-applog-lf.fqnovel.com
