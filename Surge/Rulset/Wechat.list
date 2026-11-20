@@ -20,3 +20,22 @@ IP-CIDR,101.32.133.53/32
 IP-CIDR,129.226.107.244/32
 IP-CIDR,129.226.3.47/32
 IP-CIDR,162.62.163.63/32
+
+# --- 2026-11-20 补齐（来自 blackmatrix7 WeChat.list，仅取域名类，跳过 IP 前缀 keyword 与 IPv6 段） ---
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,dldir1.qq.com
+DOMAIN,slife.xy-asia.com
+DOMAIN,soup.v.qq.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,weixin110.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,yun-hl.3g.qq.com
